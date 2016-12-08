@@ -28,7 +28,7 @@
 
 // Typography styles
 h1, h2, h3 {
-    font-family: Taviraj, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
@@ -45,9 +45,21 @@ h1, h2, h3 {
     }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #333399;
+    }
+}
+
 .navbar-brand {
-    font-family: 'Taviraj', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 800;
+    
 }
 
 // Background gradient
