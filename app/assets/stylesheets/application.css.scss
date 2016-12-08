@@ -24,6 +24,7 @@
     background: linear-gradient(to left, #ff00cc , #333399); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+// Typography styles
 h1, h2, h3 {
     font-family: Taviraj, sans-serif;
 }
@@ -31,15 +32,18 @@ h1, h2, h3 {
 .navbar {
     border: none;
 }
-.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+
+// Nav styles
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
     color: white;
+    &:hover {
+        color: white;
+        opacity: 0.5;
+    }
 }
 
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover {
-    color: white;
-    opacity: 0.5;
-}
-
+// Background gradient
 .homeCallout {
     color: white;
     margin-top: -20px;
